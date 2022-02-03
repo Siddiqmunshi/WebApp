@@ -8,3 +8,7 @@ end
 get '/secret' do 
   "What's going on?"
 end
+
+get '/cat' do
+  erb(:index)
+end
